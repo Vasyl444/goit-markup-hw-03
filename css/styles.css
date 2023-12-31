@@ -33,7 +33,6 @@ header {border-bottom: 1px solid #E7E9FC;}
      padding-bottom: 120px;
  }
 .container {
-    display: flex;
     margin: 0 auto;
     width: 1158px;
     flex-wrap: wrap;
@@ -41,7 +40,9 @@ header {border-bottom: 1px solid #E7E9FC;}
     padding-left: 15px;
     }
 
-.conthead {align-items: center;
+.conthead {
+    display: flex;
+    align-items: center;
     justify-content: space-between;}    
 .navi {display: flex;
     align-items: center;
