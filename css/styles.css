@@ -35,10 +35,10 @@ header {border-bottom: 1px solid #E7E9FC;}
 .container {
     display: flex;
     margin: 0 auto;
-    width: 1440px;
+    width: 1158px;
     flex-wrap: wrap;
-    padding-right: 156px;
-    padding-left: 156px;
+    padding-right: 15px;
+    padding-left: 15px;
     }
 
 .conthead {align-items: center;
