@@ -44,6 +44,7 @@ header {border-bottom: 1px solid #E7E9FC;}
 }
 .nav-list {display: flex;
            gap: 40px;}
+.navi .nav-list .nav-list-el .nav-list-item {padding: 24px 0;}
 .akcent {
     color: #2E2F42;
     font-family: "Raleway", sans-serif;
@@ -68,7 +69,6 @@ header {border-bottom: 1px solid #E7E9FC;}
         text-transform: uppercase;
         text-decoration: none;
     }
-.navi .nav-list {padding: 24px 0;}
 .nav-list-item {
 color: #2e2f42;
 font-weight: 500;
