@@ -68,7 +68,7 @@ header {border-bottom: 1px solid #E7E9FC;}
         text-transform: uppercase;
         text-decoration: none;
     }
-.navi .nav-list .nav-list-el {padding: 24px 0;}
+.nav-list-el {padding: 24px 0 24px;}
 .nav-list-item {
 color: #2e2f42;
 font-weight: 500;
