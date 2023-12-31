@@ -27,11 +27,6 @@ h3 {color: #2E2F44;
 
 /*======HEADER======*/
 header {border-bottom: 1px solid #E7E9FC;}
- .section {
-     display: flex;
-     padding-top: 120px;
-     padding-bottom: 120px;
- }
 .container {
     margin: 0 auto;
     width: 1158px;
@@ -91,6 +86,7 @@ text-decoration: underline;
 .adress-ul { display: flex;
              gap: 40px;
 }
+.adress-ul .item {padding: 24px o;}
 .adress {font-style: normal;
 }
 .adress .item .contact {
@@ -106,12 +102,18 @@ text-decoration: underline;
 
 /*=====H1111=====*/
 
-.sec {background-color: #2e2f42;
-flex-direction: column;
-align-items: center;
-}
-
-.main .sec .title {
+.sect-main {
+    background-color: #2e2f42;
+    padding: 188px 0;}
+.sec-cont {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+ .title {
+    max-width: 496px;
     color: #FFFFFF;
     font-size: 56px;
     font-weight: 700;
@@ -119,11 +121,12 @@ align-items: center;
     letter-spacing: 0.02em;
     padding-bottom: 32px;}
 
-.but {
-    display: inline-flex;
-    padding: 16px 32px;
+.but {min-width: 169px;
+    height: 56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border-radius: 4px;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     background-color: #4D5AE5;
     color: #FFFFFF;
     font-family: inherit;
@@ -131,6 +134,7 @@ align-items: center;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
+    border: none;
     cursor: pointer;
 }
 .but:hover,
@@ -138,6 +142,10 @@ align-items: center;
 
 /*=====ABOUT=====*/
 
+.sect-team {display: flex;
+flex-wrap: wrap;
+flex-direction: column;
+padding: 120px 0;}
 .about .title-about {visibility: hidden;}
 .about-ul {display: flex;
     gap: 24px;
