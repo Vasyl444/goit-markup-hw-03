@@ -68,8 +68,7 @@ header {border-bottom: 1px solid #E7E9FC;}
         text-transform: uppercase;
         text-decoration: none;
     }
-
-.nav-list-el {padding: 24px 0;}
+.navi .nav-list .nav-list-el {padding: 24px 0;}
 .nav-list-item {
 color: #2e2f42;
 font-weight: 500;
@@ -284,16 +283,17 @@ text-decoration: underline;
         letter-spacing: 0.02em;
 }
 /*=====FOOTER=====*/
-.foot { background-color: #2e2f42;
+.foot { 
+    background-color: #2e2f42;
+    padding: 100px 0;
 }
-.cont-foot {
-    flex-direction: column;
-    justify-content: center;
-    gap: 17.5px;
-    padding-top: 101.5px;
-    padding-bottom: 100px;}
 
-.foot .akcent { color: #f4f4fd;
+.foot .container .logo {
+    display: inline-block;
+    margin-bottom: 16px;
+}
+
+.foot .container .akcent { color: #f4f4fd;
     font-family: Raleway;
     font-size: 18px;
     font-style: normal;
@@ -304,7 +304,8 @@ text-decoration: underline;
     text-decoration: none;
 }
 
-.foot .foot-text {
+.foot .container .foot-text {
+    max-width: 264px;
     color: #F4F4FD;
     font-size: 16px;
     line-height: 1.5;
